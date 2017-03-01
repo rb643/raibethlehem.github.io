@@ -219,6 +219,20 @@ hr.small {
   -o-background-size: cover;
 }
 
+/* publications */
+.publications {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 200px;
+  background: url(../img/portfolio-4.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 /* Callout */
 
 .callout {
