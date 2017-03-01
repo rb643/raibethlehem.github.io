@@ -1,3 +1,4 @@
-# Jan Freyberg #
+# Richard A.I. Bethlehem #
 
-## Vision and Data Science in Psychiatric Research ##
+## PhD Candidate - University of Cambridge ##
+## Department of Psychiatry ##
