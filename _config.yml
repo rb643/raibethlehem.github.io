@@ -1,9 +1,8 @@
 <<<<<<< HEAD
 # Site settings
-title: Jan Freyberg
-email: jan.freyberg@kcl.ac.uk
+title: Richard A.I. Bethlehem
+email: rb643@medschl.cam.ac.uk
 baseurl: /blog/ # the subpath of your site, e.g. /blog/
-url: "www.janfreyberg.com" # the base hostname & protocol for your site
 permalink: /blog/:year-:month-:day-:title/
 # plugins
 gems: [jekyll-paginate]
@@ -12,19 +11,17 @@ paginate: 5
 paginate_path: "/blog/page:num"
 
 # for jekyll-rss
-name: Jan Freyberg's blog
-description: Statistics, data, and cognitive science. I blog neither frequently nor regularly
+name: Richard Bethlehem's blog
+description: Statistics, data, and cognitive science. 
 
 # User setting
-owner: Jan Freyberg
-twitter_username: janfreyberg
-github_username: janfreyberg
+owner: Richard Bethlehem
+twitter_username: rai_bethlehem
+github_username: rb643
 address:
- - line: Post Box 50
- - line: Institute of Psychiatry
- - line: 16 DeCrespigny Park
- - line: London
-copyright: Jan Freyberg 2016
+ - line: 857 King's College
+ - line: Cambridge, UK
+copyright: rb643
 
 # # API settings
 # google_api_key:
