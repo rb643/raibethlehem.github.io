@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
 /* Global Styles */
@@ -71,7 +71,7 @@ hr.small {
     right: 0;
     width: 250px;
     height: 100%;
-    transform: translateX(250px);
+    margin-right: -250px;
     overflow-y: auto;
     background: #222;
     -webkit-transition: all 0.4s ease 0s;
@@ -153,29 +153,70 @@ hr.small {
 .header {
     display: table;
     position: relative;
+    padding-bottom: 100px;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/havana.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-/* About */
 
-.about {
+/* Research */
+
+.research {
     padding: 50px 0;
+    background-color: #3CC4B6;
 }
 
-/* Services */
-
-.services {
-    padding: 50px 0;
+.research p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-.service-item {
+.single-col {
+  padding: 0% 20%;
+  text-align:center;
+}
+
+
+/* Projects */
+
+.projects {
+    padding: 0 0;
+}
+
+.projects p a {
+  color: #FBCF86;
+}
+
+.research-item {
     margin-bottom: 30px;
+}
+
+.research-item p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* CV */
+.cv {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 200px;
+  background: url(../img/guilin-sharp.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 /* Callout */
@@ -192,32 +233,13 @@ hr.small {
     -o-background-size: cover;
 }
 
-/* Portfolio */
-
-.portfolio {
-    padding: 50px 0;
+/* side projects */
+.side-projects {
+  padding: 50px 0;
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-/* Call to Action */
-
-.call-to-action {
-    padding: 50px 0;
-}
-
-.call-to-action .btn {
-    margin: 10px;
+/* contact footer */
+#footer .container {
 }
 
 /* Map */
@@ -232,19 +254,165 @@ hr.small {
     }
 }
 
-.map iframe {
+/*disable custom maps scrolling behaviour*/
+.scrolloff {
     pointer-events: none;
 }
 
 /* Footer */
 
-footer {
-    padding: 100px 0;
+.largefooter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url(../img/tiantou-glare.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-#to-top {
-  display: none;
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
+.smallfooter {
+  padding: 50px;
+  background: url(../img/tiantou-glare.jpg) no-repeat center center scroll;
+  background-size: 100%;
+}
+
+.footercard {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+.footercard a, .header a{
+  color: #333333;
+}
+
+footer a:hover, .header a:hover {
+  color: #23527C;
+}
+
+/* Previews of blogpost on front page */
+
+section.blogprev {
+  padding: 50px 0px;
+  background: url(../img/tetons.jpg) no-repeat center top scroll;
+  background-size: cover;
+}
+
+.previewcards {
+  padding-top: 50px;
+  min-height: 300px;
+}
+
+.previewcards .excerpt {
+  text-overflow: clip;
+}
+
+.card-light {
+  border-radius: 0;
+  color: #333;
+  height: 100%;
+  margin: 15px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
+  overflow: hidden;
+}
+
+.card-light:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Blogposts */
+
+.bloghead {
+  display: table;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: 40%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.shiny-embed {
+  width: 100%;
+  min-height: 650px;
+  border: none;
+}
+
+.bloghead hr {
+  border-top-color: #515151;
+}
+
+.blogcontent {
+    padding: 50px 0;
+}
+
+.blogcontent ol {
+  padding-left: 5px;
+}
+
+.blogcontent p, .bloglist p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bloglist .item {
+  padding: 50px 0px;
+}
+
+.bloglist .item h3 {
+  text-align: left;
+  color: #000;
+}
+
+.bloglist .item a {
+  color: inherit;
+}
+
+/*.bloglist .item .tags a, .bloglist .item .date, .bloglist .item .excerpt {
+  color: #AAA;
+}*/
+
+/* Index of tags */
+
+.taglist {
+  height: 50%;
+  text-align: center;
+  padding: 50px;
+  color: #515151;
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.taglist a {
+  color: inherit;
+}
+
+/* Gallery page */
+section.gallery {
+  min-height: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.dummy {
+    margin-top: 100%;
+}
+.tile {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    text-align:center;
+    margin-top:calc(50%);
+    border: #000;
+    background-color: rgba(255, 255, 255, 0.8)
 }
