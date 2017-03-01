@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Jan Freyberg
 email: jan.freyberg@kcl.ac.uk
@@ -31,3 +32,6 @@ copyright: Jan Freyberg 2016
 # Build settings
 markdown: kramdown
 # exclude: [presentations, pubs]
+=======
+theme: jekyll-theme-slate
+>>>>>>> origin/master
