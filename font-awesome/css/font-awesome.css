@@ -1093,6 +1093,7 @@
 }
 .fa-external-link-square:before {
   content: "\f14c";
+  background:transparent;
 }
 .fa-share-square:before {
   content: "\f14d";
