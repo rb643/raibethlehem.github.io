@@ -35,6 +35,22 @@
               </a>
             </div>
           </div>
+          
+          <div class="col-md-3 col-sm-6">
+            <div class="research-item">
+              <span class="fa-stack fa-4x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-area-chart fa-stack-1x text-primary"></i>
+              </span>
+              <!-- The content for these is in the markdown files -->
+              {% capture my-include %}{% include dti.md %}{% endcapture %}
+              {{ my-include | markdownify }}
+              <a href="https://github.com/rb643/dti" target="_blank" class="btn btn-light">
+                <i class="fa fa-connectdevelop" aria-hidden="true"></i>
+                Try it
+              </a>
+            </div>
+          </div>
          
         </div>
         <!-- /.row (nested) -->
