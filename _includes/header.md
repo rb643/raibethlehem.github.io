@@ -1,4 +1,4 @@
-# Richard A.I. Bethlehem #
+# Richard A.I. Bethlehem PhD #
 
-## PhD Candidate - University of Cambridge ##
+## Research Associate - University of Cambridge ##
 ## Department of Psychiatry ##
